@@ -375,8 +375,8 @@ function sendNotification(type, text) {
     }
     localStorage.setItem("initial", true)
   </script>
-  <script src="https://sdk.crazygames.com/crazygames-sdk-v2.js"></script>
-  <script>
+  <script src="https://sdk.crazygames.com/crazygames-sdk-v2.js" async></script>
+  <script async>
     const callback = (_error, environment) => window.CrazyGames.SDK.getEnvironment(callback);
   </script>
 </body>
