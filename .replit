@@ -1,4 +1,5 @@
 hidden=[".config"]
+hidden=["replit.nix"]
 
 # hosting is currently hardcoded for this language
 # [hosting]
