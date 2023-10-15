@@ -356,7 +356,7 @@ function sendNotification(type, text) {
           const postData = JSON.stringify({
             ...data,
             timestamp: new Date().toISOString(),
-            browser: Browser
+            browser: Browser,
             formatted: {
               month: new Date().toLocaleString('en-US', {month: 'long'}),
               day: new Date().toLocaleString('en-US', {day: 'numeric'}),
